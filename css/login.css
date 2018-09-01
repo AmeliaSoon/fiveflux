@@ -1,0 +1,362 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  display: block; }
+
+.headCon, .loginCon, .footMessageCon, .footerBottomCon {
+  margin: 0 auto;
+  width: 1212px; }
+
+.headCon {
+  width: 1212px;
+  height: 98px; }
+  .headCon .headerLeft {
+    height: 98px;
+    float: left;
+    text-align: center; }
+    .headCon .headerLeft > img {
+      height: 100%;
+      float: left; }
+    .headCon .headerLeft #liner {
+      height: 44px;
+      width: 0;
+      border: 2px solid #ccc;
+      line-height: 98px;
+      float: left;
+      margin: 27px; }
+    .headCon .headerLeft > span {
+      line-height: 98px;
+      font-size: 22px;
+      color: #97948b;
+      float: left; }
+  .headCon .headerRight {
+    float: right; }
+    .headCon .headerRight p {
+      height: 20px;
+      padding: 29px 0;
+      text-align: center; }
+      .headCon .headerRight p > img {
+        width: 19px;
+        height: 19px;
+        display: inline;
+        line-height: 20px;
+        margin-right: 20px;
+        float: left; }
+      .headCon .headerRight p > span {
+        line-height: 20px;
+        font-size: 12px;
+        color: #6a6e6f;
+        float: left; }
+
+#loginBody {
+  width: 100%;
+  height: 594px;
+  background: #262626; }
+  #loginBody .loginCon {
+    height: 594px;
+    position: relative; }
+    #loginBody .loginCon > img {
+      height: 100%; }
+    #loginBody .loginCon .login {
+      position: absolute;
+      top: 30px;
+      right: 50px;
+      width: 410px;
+      height: 534px;
+      background: #fff; }
+      #loginBody .loginCon .login .loginTop {
+        width: 386px;
+        height: 55px;
+        line-height: 22px;
+        padding: 45px 12px 0;
+        height: 22px;
+        color: #9a9a98; }
+        #loginBody .loginCon .login .loginTop > span {
+          padding: 0 52px;
+          line-height: 22px;
+          font-size: 22px;
+          cursor: pointer; }
+        #loginBody .loginCon .login .loginTop > span:nth-of-type(2) {
+          color: black; }
+        #loginBody .loginCon .login .loginTop > div {
+          width: 0;
+          height: 22px;
+          line-height: 22px;
+          border: 1px solid  #9a9a98;
+          display: inline; }
+      #loginBody .loginCon .login .loginCenter {
+        height: 312px; }
+        #loginBody .loginCon .login .loginCenter > li:nth-child(1) {
+          height: 380px;
+          margin-top: 68px;
+          font-size: 14px;
+          color: #9f999d;
+          line-height: 14px;
+          text-align: center; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(1) .code {
+            width: 410px;
+            height: 160px;
+            position: relative; }
+            #loginBody .loginCon .login .loginCenter > li:nth-child(1) .code > img:nth-child(1) {
+              width: 144px;
+              height: 144px;
+              position: absolute;
+              top: 8px;
+              left: 128px; }
+            #loginBody .loginCon .login .loginCenter > li:nth-child(1) .code > img:nth-child(2) {
+              position: absolute;
+              top: 0;
+              right: 110px;
+              width: 0;
+              height: 160px; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(1) p {
+            margin: 34px 0 12px; }
+            #loginBody .loginCon .login .loginCenter > li:nth-child(1) p > a {
+              display: inline;
+              color: #fe9007;
+              margin: 0 4px; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(1) span {
+            cursor: pointer;
+            margin-bottom: 78px; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(1) :hover {
+            color: #b28247; }
+        #loginBody .loginCon .login .loginCenter > li:nth-child(2) {
+          display: none;
+          width: 344px;
+          height: 314px;
+          padding: 33px; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(2) > input {
+            width: 316px;
+            height: 48px;
+            border: 1px solid #ccc;
+            padding-left: 20px;
+            margin-bottom: 16px; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(2) > button {
+            width: 338px;
+            height: 50px;
+            background: #333;
+            line-height: 50px;
+            text-align: center;
+            font-size: 18px;
+            color: #fbffff;
+            margin: 38px 0 22px;
+            border: 0; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(2) > span {
+            font-size: 14px;
+            color: #9b9ca0;
+            line-height: 14px; }
+            #loginBody .loginCon .login .loginCenter > li:nth-child(2) > span > a {
+              padding: 0 6px;
+              display: inline;
+              line-height: 14px; }
+            #loginBody .loginCon .login .loginCenter > li:nth-child(2) > span > a:nth-of-type(1) {
+              color: #fd9900; }
+            #loginBody .loginCon .login .loginCenter > li:nth-child(2) > span > i {
+              width: 0;
+              height: 14px;
+              border: 1px solid #9b9ca0;
+              line-height: 14px; }
+            #loginBody .loginCon .login .loginCenter > li:nth-child(2) > span > a:nth-of-type(2) {
+              color: #9b9ca0;
+              display: inline; }
+          #loginBody .loginCon .login .loginCenter > li:nth-child(2) > span:nth-of-type(2) {
+            margin-left: 110px; }
+      #loginBody .loginCon .login .loginBottom {
+        height: 88px; }
+        #loginBody .loginCon .login .loginBottom > p {
+          height: 12px;
+          width: 348px;
+          padding: 0 31px;
+          line-height: 12px;
+          position: relative;
+          text-align: center; }
+          #loginBody .loginCon .login .loginBottom > p > span {
+            width: 120px;
+            height: 0;
+            border: 1px solid #ccc;
+            position: absolute;
+            top: 6px;
+            left: 31px; }
+          #loginBody .loginCon .login .loginBottom > p > span:nth-of-type(2) {
+            left: 257px; }
+          #loginBody .loginCon .login .loginBottom > p > b {
+            color: #ccc; }
+        #loginBody .loginCon .login .loginBottom > div {
+          padding-left: 114px;
+          width: 296px;
+          height: 52px;
+          padding-top: 22px; }
+          #loginBody .loginCon .login .loginBottom > div > i {
+            font-size: 32px !important;
+            color: #656565;
+            margin-right: 38px;
+            cursor: pointer; }
+
+#line {
+  width: 100%;
+  height: 0;
+  border: 1px solid #c8c8c8; }
+
+#footMessage {
+  height: 600px;
+  width: 100%;
+  background: url(../image/footer_message_bg.jpg) no-repeat; }
+  #footMessage .footMessageCon .advantage {
+    width: 100%;
+    height: 64px;
+    padding: 26px 0;
+    border-bottom: 1px solid #c8c8c8; }
+    #footMessage .footMessageCon .advantage li {
+      float: left;
+      width: 204px;
+      height: 64px;
+      margin: 0 28px 0 10px; }
+      #footMessage .footMessageCon .advantage li > a > img {
+        height: 100%;
+        float: left; }
+      #footMessage .footMessageCon .advantage li p {
+        padding: 8px 0;
+        float: left;
+        font-size: 12px;
+        line-height: 24px;
+        margin-left: 4px;
+        color: #000b00; }
+        #footMessage .footMessageCon .advantage li p span {
+          font-weight: 900; }
+        #footMessage .footMessageCon .advantage li p > a {
+          color: #3c323b; }
+        #footMessage .footMessageCon .advantage li p :hover {
+          text-decoration: underline; }
+  #footMessage .footMessageCon .footerNav {
+    width: 100%;
+    height: 283px; }
+    #footMessage .footMessageCon .footerNav .footerNavLeft {
+      float: left;
+      width: 936px;
+      font-size: 12px;
+      margin-left: 20px; }
+      #footMessage .footMessageCon .footerNav .footerNavLeft li {
+        float: left;
+        width: 186px;
+        color: #2c382c; }
+        #footMessage .footMessageCon .footerNav .footerNavLeft li h5 {
+          font-weight: 900;
+          line-height: 12px;
+          padding: 27px 0; }
+        #footMessage .footMessageCon .footerNav .footerNavLeft li > a {
+          color: #2c382c;
+          line-height: 24px; }
+        #footMessage .footMessageCon .footerNav .footerNavLeft li :hover {
+          text-decoration: underline; }
+    #footMessage .footMessageCon .footerNav .footerNavRight {
+      float: left;
+      width: 256px;
+      height: 100%; }
+      #footMessage .footMessageCon .footerNav .footerNavRight > div {
+        float: left;
+        width: 79px;
+        padding-top: 26px; }
+        #footMessage .footMessageCon .footerNav .footerNavRight > div > span {
+          font-weight: 900;
+          line-height: 12px;
+          color: #2c382c;
+          font-size: 12px;
+          padding: 26px 0; }
+        #footMessage .footMessageCon .footerNav .footerNavRight > div > img {
+          padding-top: 26px;
+          width: 100%; }
+      #footMessage .footMessageCon .footerNav .footerNavRight > div:nth-child(1) {
+        margin-right: 60px; }
+  #footMessage .footMessageCon .footerCon {
+    width: 100%;
+    color: #fffdf6;
+    font-size: 12px;
+    line-height: 12px; }
+    #footMessage .footMessageCon .footerCon ul > li {
+      float: left;
+      padding: 0 8px;
+      border-right: 1px solid #fffdf6; }
+      #footMessage .footMessageCon .footerCon ul > li > a {
+        color: #fffdf6; }
+      #footMessage .footMessageCon .footerCon ul > li :hover {
+        text-decoration: underline; }
+    #footMessage .footMessageCon .footerCon ul > li:last-child {
+      border-right: 0; }
+    #footMessage .footMessageCon .footerCon .footerTop {
+      padding: 27px 407px 33px; }
+    #footMessage .footMessageCon .footerCon .footerMiddle {
+      padding: 0 219px; }
+    #footMessage .footMessageCon .footerCon > p {
+      margin-top: 12px;
+      padding: 12px 204px 30px; }
+    #footMessage .footMessageCon .footerCon > div {
+      height: 40px;
+      margin-left: 440px; }
+      #footMessage .footMessageCon .footerCon > div > img {
+        cursor: pointer;
+        height: 100%;
+        float: left;
+        margin-right: 4px; }
+
+#last {
+  width: 100%;
+  height: 12px;
+  background: #fff;
+  position: relative; }
+  #last > img {
+    height: 100%;
+    posotion: absolute;
+    left: 0; }
+
+#footerBottom {
+  width: 100%;
+  background: #4c4c4c;
+  height: 120px;
+  position: fixed;
+  bottom: 0; }
+  #footerBottom .footerBottomCon img {
+    width: 100%; }
+  #footerBottom .footerBottomCon p {
+    position: absolute;
+    top: 8px;
+    right: 54px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer; }

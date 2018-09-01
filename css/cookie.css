@@ -1,0 +1,208 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  display: block; }
+
+.cookTop, .cart, .goodsEmpty {
+  margin: 0 auto;
+  width: 1190px; }
+
+.cookTop {
+  height: 110px; }
+  .cookTop .cookieTopBg {
+    width: 700px;
+    height: 45px;
+    margin-left: 502px;
+    margin: 33px 0  32px 502px;
+    background: url(../image/cookie/cart_step.jpg) no-repeat;
+    background-position: 0 0; }
+
+.carGoods {
+  border-collapse: collapse;
+  margin: 0 auto; }
+  .carGoods tbody tr {
+    border: 0;
+    text-align: left; }
+    .carGoods tbody tr th {
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      font-weight: normal;
+      text-align: center;
+      font-family: "微软雅黑";
+      background: #ebeaea; }
+  .carGoods tbody tr {
+    border-bottom: 1px solid #b3b3b3; }
+    .carGoods tbody tr th:nth-child(2) {
+      padding: 1px 0;
+      width: 95px;
+      height: 95px; }
+      .carGoods tbody tr th:nth-child(2) img {
+        width: 100%; }
+    .carGoods tbody tr th:nth-child(6) {
+      text-align: center; }
+      .carGoods tbody tr th:nth-child(6) a {
+        width: 20px;
+        height: 20px;
+        background: #c8a985;
+        line-height: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+        float: left; }
+      .carGoods tbody tr th:nth-child(6) input {
+        border: 1px solid #9d9d9d;
+        width: 50px;
+        height: 18px;
+        float: left;
+        text-align: center; }
+  .carGoods tbody #dis1 .carTitle {
+    text-align: left;
+    padding-left: 12px; }
+  .carGoods tbody #dis1 .carFun {
+    text-align: left; }
+    .carGoods tbody #dis1 .carFun > a {
+      font-size: 12px;
+      line-height: 24px;
+      color: #0000ff; }
+    .carGoods tbody #dis1 .carFun a:nth-of-type(3) {
+      color: #cc0000;
+      line-height: 22px; }
+      .carGoods tbody #dis1 .carFun a:nth-of-type(3) i {
+        width: 17px;
+        height: 22px;
+        background: url(../image/cookie/new_5luxbg.png) no-repeat;
+        background-position: -363px -52px;
+        display: inline-block; }
+  .carGoods tbody #dis2 .fullSend {
+    margin-top: 2px;
+    height: 22px;
+    background: #eeeeee;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 9px 0; }
+    .carGoods tbody #dis2 .fullSend button {
+      height: 24px;
+      width: 50px;
+      line-height: 24px;
+      text-align: center;
+      font-size: 12px;
+      color: #fff;
+      background: #d63030;
+      border: 0;
+      margin: 0 30px; }
+    .carGoods tbody #dis2 .fullSend span {
+      line-height: 24px;
+      font-size: 12px;
+      color: #d20000; }
+  .carGoods tbody .black {
+    height: 95px; }
+    .carGoods tbody .black th:nth-child(2) {
+      width: 95px;
+      position: relative; }
+      .carGoods tbody .black th:nth-child(2) .blackMan {
+        width: 95px; }
+      .carGoods tbody .black th:nth-child(2) i {
+        display: block;
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        background: url(../image/cookie/new_5luxbg.png) no-repeat;
+        background-position: 1px -157px;
+        top: 0;
+        right: 0;
+        z-index: 10; }
+
+.cart {
+  height: 35px;
+  padding: 50px 0 20px; }
+  .cart p {
+    display: inline-block; }
+  .cart span {
+    font-size: 18px;
+    color: #666666;
+    line-height: 18px; }
+    .cart span a {
+      display: inline;
+      padding-right: 7px;
+      font-size: 12px;
+      line-height: 18px;
+      color: #666; }
+    .cart span a:nth-child(2) {
+      padding-left: 7px; }
+    .cart span b {
+      color: #e23f24; }
+  .cart span:nth-of-type(1) {
+    margin: 0 486px 0 10px; }
+  .cart span:nth-of-type(3) {
+    margin: 0 11px 0 15px; }
+  .cart span:nth-of-type(2), .cart span:nth-of-type(3) {
+    font-size: 12px; }
+  .cart > i {
+    font-size: 20px;
+    color: #d73128; }
+  .cart button {
+    display: inline-block;
+    width: 136px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background: #d31920;
+    font-size: 12px;
+    text-align: center;
+    border: 0;
+    margin-left: 42px; }
+
+.goodsEmpty {
+  height: 164px;
+  text-align: center;
+  display: none; }
+  .goodsEmpty p {
+    font-size: 18px;
+    color: #000;
+    padding: 75px 0 22px;
+    line-height: 18px; }
+  .goodsEmpty button {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 12px;
+    background: #D00000;
+    line-height: 30px;
+    border: 0; }

@@ -1,0 +1,74 @@
+1>首页123
+	header:鼠标滑过，二级菜单
+	logo:input框，购物车上标
+	banner:nav二级菜单和轮播，第一个跳转但列表页
+	section:
+		sales:鼠标滑过，上滑动画
+		countryMall:
+		globalSeller:鼠标滑过，上滑动画
+		momBaby:右侧轮播，上滑动画
+		health:同上
+		beauty:同上
+		person:同上
+		home:同上
+		foods:同上
+		topBrand:右侧，箭头切自动轮播
+	bottom:
+	footer:右侧导航栏，在线咨询
+		
+		
+2>列表页45
+	header:鼠标滑过，二级菜单
+	logo:input框，购物车上标
+	banner:nav二级菜单和轮播，路径
+	section:
+		左侧：aside
+			navTop:隐藏，点击事件，弹出菜单
+			navBottom:箭头换页，点击图片跳转
+		右侧：article
+			hotSell:
+			relativepro:滑过二级菜单，弹出框
+			products：滑过上滑动画，弹出缺货或者加入购入车，第一个跳转但详情页
+			page：记录页数
+		bottom:
+	        footer:右侧导航栏，在线咨询
+						
+
+3>详情页56
+	header:鼠标滑过，二级菜单
+	logo:input框，购物车上标
+	banner:nav二级菜单和轮播，路径
+	section：
+		detail：左侧放大镜，中间加入购物车（从后端获取数据），右侧箭头轮播
+		popularGoods：左滑动画
+		div 
+			aside：
+				navTop:隐藏，点击事件，弹出菜单
+				navBottom:左滑动画，点击图片跳转
+			article：
+				goodsDetail：
+				standard：表格
+				advantages：滑过
+	bottom:
+	footer:右侧导航栏，在线咨询	
+				
+				
+4>购物车页7
+	header:鼠标滑过，二级菜单
+	logo:支付流程
+	shopping：数量添加，结算
+	bottom:
+	footer:右侧导航栏，在线咨询		
+	
+5>登录页1
+	header:鼠标滑过，二级菜单
+	logo:
+	login：点击微信页,cookie,注册跳转
+	footer：
+	
+6>注册页2
+	header:鼠标滑过，二级菜单
+	logo:
+	login：点击微信页,跳转登录，邮箱，快捷登录
+	footer：
+	

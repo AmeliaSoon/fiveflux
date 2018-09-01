@@ -1,0 +1,410 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  display: block; }
+
+.goodsThing {
+  margin: 0 auto;
+  width: 1212px; }
+
+#tsShopContainer li, #tsShopContainer img {
+  vertical-align: top; }
+
+#tsShopContainer {
+  width: 480px;
+  position: relative;
+  margin-bottom: 45px;
+  height: 592px; }
+
+#tsShopContainer #tsImgS {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  height: 478px;
+  margin-top: 17px; }
+
+#tsShopContainer #tsImgS a {
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  border: 1px solid #e9e9e9;
+  width: 478px;
+  height: 478px; }
+
+#tsShopContainer #tsImgS img {
+  width: 478px;
+  height: 478px; }
+
+#tsShopContainer #tsPicContainer {
+  width: 480px;
+  height: 87px;
+  position: relative;
+  margin-top: 25px; }
+
+#tsShopContainer #tsPicContainer #tsImgSArrL {
+  width: 15px;
+  height: 100%;
+  background: url(../image/detail/brandstore_share.png) no-repeat -32px -362px #f2f2f2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer; }
+
+#tsShopContainer #tsPicContainer #tsImgSArrR {
+  width: 15px;
+  height: 100%;
+  background: url(../image/detail/brandstore_share.png) no-repeat -74px -362px #f2f2f2;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer; }
+
+#tsShopContainer #tsPicContainer #tsImgSCon {
+  position: absolute;
+  top: 0px;
+  left: 17px;
+  height: 87px;
+  width: 1px;
+  overflow: hidden; }
+
+#tsShopContainer #tsPicContainer #tsImgSCon ul {
+  width: 580px !important; }
+
+#tsShopContainer #tsPicContainer #tsImgSCon li {
+  width: 85px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin-right: 6px; }
+
+#tsShopContainer #tsPicContainer #tsImgSCon li img {
+  display: block;
+  width: 85px;
+  height: 85px; }
+
+.goodsThing {
+  height: 798px; }
+  .goodsThing .goodsThingLeft {
+    width: 480px;
+    padding-left: 57px;
+    height: 100%;
+    float: left; }
+    .goodsThing .goodsThingLeft p {
+      width: 100%;
+      line-height: 18px; }
+      .goodsThing .goodsThingLeft p span {
+        font-size: 12px;
+        color: #969fa4;
+        line-height: 18px;
+        margin-right: 21px; }
+        .goodsThing .goodsThingLeft p span i {
+          font-size: 18px !important;
+          color: #cca886;
+          padding: 0 10px; }
+  .goodsThing .goodsThingRight {
+    width: 607px;
+    height: 100%;
+    margin-left: 60px;
+    float: left; }
+    .goodsThing .goodsThingRight .goodsThingTitle {
+      margin-top: 26px;
+      width: 100%;
+      height: 90px;
+      border: 1px solid dashed;
+      font-size: 14px;
+      color: #959b9b;
+      line-height: 30px;
+      border-bottom: 1px dashed #bfbfbf; }
+      .goodsThing .goodsThingRight .goodsThingTitle h3 {
+        color: #02000d; }
+      .goodsThing .goodsThingRight .goodsThingTitle h4 {
+        font-size: 12px;
+        color: #9f9a94;
+        line-height: 12px;
+        margin: 9px 0; }
+    .goodsThing .goodsThingRight .goodsThingPrice {
+      height: 54px;
+      width: 100%; }
+      .goodsThing .goodsThingRight .goodsThingPrice p {
+        float: left; }
+      .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) {
+        float: left;
+        line-height: 54px;
+        font-size: 22px;
+        color: #cba672; }
+        .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) i {
+          float: left; }
+        .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) span {
+          font-size: 12px;
+          color: #929c94;
+          text-decoration: line-through;
+          padding: 0 6px;
+          float: left; }
+        .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) a {
+          width: 80px;
+          height: 20px;
+          background: #cab282;
+          font-size: 12px;
+          line-height: 20px;
+          text-align: center;
+          color: #fffdff;
+          border-radius: 10px;
+          float: left;
+          margin-top: 16px;
+          position: relative; }
+          .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) a strong {
+            position: absolute;
+            position: absolute;
+            left: 0px;
+            top: 28px;
+            width: 202px;
+            height: 124px;
+            background: #FFF;
+            z-index: 1;
+            border: 1px solid #CCC;
+            border-top: none;
+            border-radius: 3px;
+            text-align: center;
+            padding-top: 20px;
+            display: none; }
+            .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) a strong .goodsPricetop {
+              display: block;
+              position: absolute;
+              top: -6px;
+              left: 0px;
+              width: 202px;
+              height: 6px;
+              background: url(../image/detail/149734560273_202x6.jpg) no-repeat; }
+            .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) a strong b {
+              display: block;
+              font-size: 12px;
+              color: #000;
+              line-height: 24px; }
+            .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(1) a strong button {
+              width: 110px;
+              height: 24px;
+              background: #c8a985;
+              font-size: 12px;
+              color: #fff;
+              line-height: 24px;
+              border: 0;
+              margin-top: 11px;
+              border-radius: 3px; }
+      .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(2) {
+        margin-top: 16px;
+        height: 26px;
+        font-size: 12px;
+        line-height: 26px;
+        color: #62697c;
+        margin-left: 103px; }
+        .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(2) span {
+          display: block;
+          height: 26px;
+          float: left;
+          color: #000; }
+          .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(2) span i {
+            font-size: 26px !important;
+            display: block;
+            float: left; }
+          .goodsThing .goodsThingRight .goodsThingPrice p:nth-of-type(2) span b {
+            width: 12px;
+            height: 26px;
+            display: block;
+            float: left;
+            background: url(../image/detail/149761259453_12x26.png) no-repeat; }
+    .goodsThing .goodsThingRight li > b {
+      font-size: 12px;
+      line-height: 12px;
+      margin: 0 56px 0 12px;
+      float: left;
+      margin-top: 7px; }
+    .goodsThing .goodsThingRight .goodsThingBuy {
+      height: 16px;
+      font-size: 12px;
+      line-height: 16px;
+      padding: 16px 0;
+      border-bottom: 1px dashed #bfbfbf; }
+      .goodsThing .goodsThingRight .goodsThingBuy span {
+        float: left;
+        color: #bfa781;
+        font-size: 16px;
+        padding-right: 5px; }
+      .goodsThing .goodsThingRight .goodsThingBuy > a {
+        float: left;
+        position: relative;
+        color: #000; }
+        .goodsThing .goodsThingRight .goodsThingBuy > a strong {
+          position: absolute;
+          display: block;
+          display: none;
+          width: 210px;
+          height: 76px;
+          box-shadow: 0 0 3px 2px #ccc;
+          top: -9px;
+          left: 42px;
+          z-index: 9;
+          background: #fff;
+          font-size: 12px;
+          line-height: 22px;
+          text-align: center; }
+          .goodsThing .goodsThingRight .goodsThingBuy > a strong i {
+            display: block;
+            line-height: 24px; }
+    .goodsThing .goodsThingRight .goodsThingActive {
+      width: 100%;
+      height: 35px;
+      position: relative; }
+      .goodsThing .goodsThingRight .goodsThingActive b {
+        margin-top: 2px; }
+      .goodsThing .goodsThingRight .goodsThingActive p {
+        width: 224px;
+        height: 35px;
+        font-size: 12px;
+        color: #d4b07e;
+        line-height: 30px;
+        float: left;
+        overflow: hidden; }
+      .goodsThing .goodsThingRight .goodsThingActive span {
+        float: left;
+        width: 20px;
+        height: 10px;
+        background: url(../image/detail/brandstore_share.png) no-repeat;
+        background-position: -391px -296px;
+        position: absolute;
+        top: 13px;
+        right: 27px; }
+    .goodsThing .goodsThingRight .goodsThingMessage {
+      height: 224px;
+      border-bottom: 1px dashed #bfbfbf; }
+      .goodsThing .goodsThingRight .goodsThingMessage ul {
+        float: left; }
+        .goodsThing .goodsThingRight .goodsThingMessage ul li {
+          height: 32px;
+          border: 1px solid #c0c0c0;
+          float: left;
+          line-height: 32px;
+          text-align: center;
+          font-size: 10px;
+          color: #040000; }
+      .goodsThing .goodsThingRight .goodsThingMessage .goodsThingSize {
+        height: 90px;
+        margin-top: 2px; }
+        .goodsThing .goodsThingRight .goodsThingMessage .goodsThingSize ul {
+          width: 415px;
+          height: 90px; }
+          .goodsThing .goodsThingRight .goodsThingMessage .goodsThingSize ul li {
+            width: 30px;
+            margin-top: 7px;
+            margin-right: 5px; }
+      .goodsThing .goodsThingRight .goodsThingMessage .goodsThingColor {
+        width: 100%;
+        height: 32px;
+        padding: 28px 0; }
+        .goodsThing .goodsThingRight .goodsThingMessage .goodsThingColor ul {
+          height: 32px; }
+          .goodsThing .goodsThingRight .goodsThingMessage .goodsThingColor ul li {
+            width: 92px; }
+      .goodsThing .goodsThingRight .goodsThingMessage .goodsThingCount {
+        height: 22px;
+        padding-bottom: 22px; }
+        .goodsThing .goodsThingRight .goodsThingMessage .goodsThingCount > div {
+          width: 94px;
+          height: 22px;
+          float: left; }
+          .goodsThing .goodsThingRight .goodsThingMessage .goodsThingCount > div a {
+            width: 22px;
+            height: 22px;
+            background: url(../image/detail/brandstore_share.png) no-repeat -311px -292px #ccae8a;
+            float: left; }
+          .goodsThing .goodsThingRight .goodsThingMessage .goodsThingCount > div a:nth-of-type(2) {
+            background-position-x: -268px; }
+          .goodsThing .goodsThingRight .goodsThingMessage .goodsThingCount > div input {
+            width: 46px;
+            height: 19px;
+            float: left;
+            margin: 0 1px;
+            text-align: center; }
+    .goodsThing .goodsThingRight .goodsThingBottom {
+      height: 300px; }
+      .goodsThing .goodsThingRight .goodsThingBottom .goodsThingDetail {
+        height: 144px; }
+        .goodsThing .goodsThingRight .goodsThingBottom .goodsThingDetail li {
+          font-size: 12px;
+          color: #8a9a90;
+          margin-left: 20px;
+          line-height: 24px; }
+          .goodsThing .goodsThingRight .goodsThingBottom .goodsThingDetail li span {
+            margin-left: 32px; }
+            .goodsThing .goodsThingRight .goodsThingBottom .goodsThingDetail li span i {
+              color: #d3a17c; }
+      .goodsThing .goodsThingRight .goodsThingBottom .goodsThingButton {
+        height: 35px;
+        padding: 22px 0 30px; }
+        .goodsThing .goodsThingRight .goodsThingBottom .goodsThingButton button {
+          width: 118px;
+          height: 33px;
+          border: 1px solid #c6a987;
+          font-size: 12px;
+          color: #fff;
+          background: #c6a987;
+          line-height: 33px;
+          text-align: center;
+          margin-right: 10px; }
+        .goodsThing .goodsThingRight .goodsThingBottom .goodsThingButton button:nth-child(1) {
+          background: #fff;
+          margin-left: 20px;
+          color: #c0a989; }
+      .goodsThing .goodsThingRight .goodsThingBottom .goodsThingProtect {
+        height: 48px; }
+        .goodsThing .goodsThingRight .goodsThingBottom .goodsThingProtect li {
+          float: left;
+          height: 48px;
+          font-size: 12px;
+          color: #9c9a9f;
+          line-height: 48px;
+          margin-right: 36px; }
+          .goodsThing .goodsThingRight .goodsThingBottom .goodsThingProtect li img {
+            width: 48px;
+            padding-right: 16px;
+            float: left; }
+          .goodsThing .goodsThingRight .goodsThingBottom .goodsThingProtect li span {
+            float: left; }
+        .goodsThing .goodsThingRight .goodsThingBottom .goodsThingProtect li:nth-child(3) {
+          margin-right: 0; }

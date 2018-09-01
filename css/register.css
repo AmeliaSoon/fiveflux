@@ -1,0 +1,299 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  display: block; }
+
+.headCon, .registerCon, .footMessageCon, .footerBottomCon {
+  margin: 0 auto;
+  width: 1212px; }
+
+.headCon {
+  width: 1212px;
+  height: 98px; }
+  .headCon .headerLeft {
+    height: 98px;
+    float: left;
+    text-align: center; }
+    .headCon .headerLeft > img {
+      height: 100%;
+      float: left; }
+    .headCon .headerLeft #liner {
+      height: 44px;
+      width: 0;
+      border: 2px solid #ccc;
+      line-height: 98px;
+      float: left;
+      margin: 27px; }
+    .headCon .headerLeft > span {
+      line-height: 98px;
+      font-size: 22px;
+      color: #97948b;
+      float: left; }
+  .headCon .headerRight {
+    float: right; }
+    .headCon .headerRight p {
+      height: 20px;
+      padding: 29px 0;
+      text-align: center; }
+      .headCon .headerRight p > img {
+        width: 19px;
+        height: 19px;
+        display: inline;
+        line-height: 20px;
+        margin-right: 20px;
+        float: left; }
+      .headCon .headerRight p > span {
+        line-height: 20px;
+        font-size: 12px;
+        color: #6a6e6f;
+        float: left; }
+
+#registerBody {
+  width: 100%;
+  min-height: 594px;
+  background: #262626; }
+  #registerBody .registerCon {
+    height: 594px;
+    position: relative; }
+    #registerBody .registerCon > img {
+      height: 100%; }
+    #registerBody .registerCon .register {
+      position: absolute;
+      top: 30px;
+      right: 40px;
+      width: 340px;
+      height: 442px;
+      background: #fff;
+      padding: 36px 30px 0; }
+      #registerBody .registerCon .register h2 {
+        font-size: 18px;
+        line-height: 18px;
+        color: #000200;
+        margin-bottom: 20px;
+        text-align: center; }
+      #registerBody .registerCon .register input {
+        width: 320px;
+        height: 48px;
+        border: 1px solid #ccc;
+        margin-top: 16px;
+        padding-left: 18px; }
+      #registerBody .registerCon .register > p {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 16px; }
+        #registerBody .registerCon .register > p > input {
+          width: 162px;
+          display: inline;
+          margin-top: 0; }
+        #registerBody .registerCon .register > p > button {
+          width: 132px;
+          height: 50px;
+          background: #f2f2f2;
+          font-size: 12px;
+          line-height: 50px;
+          text-align: center;
+          color: 000200;
+          margin-left: 26px;
+          border: 0; }
+      #registerBody .registerCon .register > span {
+        font-size: 14px;
+        color: red;
+        line-height: 14px;
+        padding: 10px 0;
+        display: none;
+        width: 340px; }
+        #registerBody .registerCon .register > span i {
+          font-size: 14px !important; }
+      #registerBody .registerCon .register > span:nth-of-type(1) {
+        color: #CDCDCD; }
+      #registerBody .registerCon .register > button:nth-of-type(1) {
+        width: 340px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+        color: #f8fffc;
+        background: #333;
+        text-align: center;
+        border: 0;
+        margin-top: 24px; }
+      #registerBody .registerCon .register > p {
+        font-size: 12px;
+        margin-top: 20px;
+        line-height: 12px;
+        color: #9b9595; }
+        #registerBody .registerCon .register > p > a {
+          display: inline; }
+        #registerBody .registerCon .register > p > a:nth-of-type(1) {
+          color: #2c3429; }
+        #registerBody .registerCon .register > p > a:nth-of-type(2) {
+          color: #ff9b02;
+          margin-left: 24px; }
+
+#line {
+  width: 100%;
+  height: 0;
+  border: 1px solid #c8c8c8; }
+
+#footMessage {
+  height: 600px;
+  width: 100%;
+  background: url(../image/footer_message_bg.jpg) no-repeat; }
+  #footMessage .footMessageCon .advantage {
+    width: 100%;
+    height: 64px;
+    padding: 26px 0;
+    border-bottom: 1px solid #c8c8c8; }
+    #footMessage .footMessageCon .advantage li {
+      float: left;
+      width: 204px;
+      height: 64px;
+      margin: 0 28px 0 10px; }
+      #footMessage .footMessageCon .advantage li > a > img {
+        height: 100%;
+        float: left; }
+      #footMessage .footMessageCon .advantage li p {
+        padding: 8px 0;
+        float: left;
+        font-size: 12px;
+        line-height: 24px;
+        margin-left: 4px;
+        color: #000b00; }
+        #footMessage .footMessageCon .advantage li p span {
+          font-weight: 900; }
+        #footMessage .footMessageCon .advantage li p > a {
+          color: #3c323b; }
+        #footMessage .footMessageCon .advantage li p :hover {
+          text-decoration: underline; }
+  #footMessage .footMessageCon .footerNav {
+    width: 100%;
+    height: 283px; }
+    #footMessage .footMessageCon .footerNav .footerNavLeft {
+      float: left;
+      width: 936px;
+      font-size: 12px;
+      margin-left: 20px; }
+      #footMessage .footMessageCon .footerNav .footerNavLeft li {
+        float: left;
+        width: 186px;
+        color: #2c382c; }
+        #footMessage .footMessageCon .footerNav .footerNavLeft li h5 {
+          font-weight: 900;
+          line-height: 12px;
+          padding: 27px 0; }
+        #footMessage .footMessageCon .footerNav .footerNavLeft li > a {
+          color: #2c382c;
+          line-height: 24px; }
+        #footMessage .footMessageCon .footerNav .footerNavLeft li :hover {
+          text-decoration: underline; }
+    #footMessage .footMessageCon .footerNav .footerNavRight {
+      float: left;
+      width: 256px;
+      height: 100%; }
+      #footMessage .footMessageCon .footerNav .footerNavRight > div {
+        float: left;
+        width: 79px;
+        padding-top: 26px; }
+        #footMessage .footMessageCon .footerNav .footerNavRight > div > span {
+          font-weight: 900;
+          line-height: 12px;
+          color: #2c382c;
+          font-size: 12px;
+          padding: 26px 0; }
+        #footMessage .footMessageCon .footerNav .footerNavRight > div > img {
+          padding-top: 26px;
+          width: 100%; }
+      #footMessage .footMessageCon .footerNav .footerNavRight > div:nth-child(1) {
+        margin-right: 60px; }
+  #footMessage .footMessageCon .footerCon {
+    width: 100%;
+    color: #fffdf6;
+    font-size: 12px;
+    line-height: 12px; }
+    #footMessage .footMessageCon .footerCon ul > li {
+      float: left;
+      padding: 0 8px;
+      border-right: 1px solid #fffdf6; }
+      #footMessage .footMessageCon .footerCon ul > li > a {
+        color: #fffdf6; }
+      #footMessage .footMessageCon .footerCon ul > li :hover {
+        text-decoration: underline; }
+    #footMessage .footMessageCon .footerCon ul > li:last-child {
+      border-right: 0; }
+    #footMessage .footMessageCon .footerCon .footerTop {
+      padding: 27px 407px 33px; }
+    #footMessage .footMessageCon .footerCon .footerMiddle {
+      padding: 0 219px; }
+    #footMessage .footMessageCon .footerCon > p {
+      margin-top: 12px;
+      padding: 12px 204px 30px; }
+    #footMessage .footMessageCon .footerCon > div {
+      height: 40px;
+      margin-left: 440px; }
+      #footMessage .footMessageCon .footerCon > div > img {
+        cursor: pointer;
+        height: 100%;
+        float: left;
+        margin-right: 4px; }
+
+#last {
+  width: 100%;
+  height: 12px;
+  background: #fff;
+  position: relative; }
+  #last > img {
+    height: 100%;
+    posotion: absolute;
+    left: 0; }
+
+#footerBottom {
+  width: 100%;
+  background: #4c4c4c;
+  height: 120px;
+  position: fixed;
+  bottom: 0; }
+  #footerBottom .footerBottomCon img {
+    width: 100%; }
+  #footerBottom .footerBottomCon p {
+    position: absolute;
+    top: 8px;
+    right: 54px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer; }

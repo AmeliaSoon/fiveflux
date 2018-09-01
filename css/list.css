@@ -1,0 +1,115 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input, select {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  display: block; }
+
+.goods, .goodsPage {
+  margin: 0 auto;
+  width: 1210px; }
+
+.divBody {
+  width: 100%;
+  height: 10677px;
+  background: url(../image/list/brand01.jpg) no-repeat center top #000; }
+  .divBody .goods {
+    min-height: 480px;
+    background: #fff;
+    overflow: hidden; }
+    .divBody .goods li {
+      width: 290px;
+      height: 480px;
+      float: left;
+      margin: 0 6px;
+      position: relative;
+      margin-bottom: 23px; }
+      .divBody .goods li i {
+        display: block;
+        width: 60px;
+        height: 60px;
+        background: url(../image/list/share02.png) no-repeat;
+        background-position: -84px -56px;
+        position: absolute; }
+      .divBody .goods li .goodsCon {
+        width: 270px;
+        height: 460px;
+        color: #000;
+        text-align: center; }
+        .divBody .goods li .goodsCon img {
+          max-width: 267px;
+          height: 267px;
+          margin-bottom: 26px; }
+        .divBody .goods li .goodsCon h2, .divBody .goods li .goodsCon h3 {
+          line-height: 24px;
+          font-size: 12px; }
+        .divBody .goods li .goodsCon h4 {
+          font-size: 10px;
+          line-height: 22px;
+          color: #b3a284; }
+  .divBody .goodsPage {
+    height: 34px;
+    padding: 40px 0;
+    background: #fff;
+    position: relative; }
+    .divBody .goodsPage ul {
+      height: 34px;
+      width: 432px;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+      .divBody .goodsPage ul li {
+        float: left;
+        border: 1px solid #c69c6d;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-right: 8px;
+        font-size: 12px;
+        color: #666;
+        padding: 0 13px; }
+      .divBody .goodsPage ul :hover {
+        color: #fff;
+        background: #c69c6d; }
+      .divBody .goodsPage ul span {
+        float: left;
+        padding: 0 4px; }

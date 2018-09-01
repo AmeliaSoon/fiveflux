@@ -1,0 +1,37 @@
+首页
+Day1:
+	写项目分析，项目准备
+	划分h5的模块
+	header:鼠标滑过，二级菜单
+	logo:input框，购物车上标
+Day2：
+	nav：二级菜单第一个跳转但列表页
+	banner：
+Day3：
+	section:
+		sales:鼠标滑过，上滑动画
+		countryMall:
+Day4：
+		globalSeller:鼠标滑过，上滑动画
+		momBaby:右侧轮播，上滑动画
+		health:同上
+Day5：
+		beauty:同上
+		person:同上
+		home:同上
+Day6：
+		foods:同上
+		topBrand:右侧，箭头切自动轮播
+	bottom:
+Day7：
+	footer:右侧导航栏，在线咨询
+	加效果，底部广告关闭；人工咨询；
+Day8：
+	顶部菜单
+	完善右侧菜单
+Day9：
+	banner轮播图
+	登录页面开始
+day10：
+	登录页面静态完善
+	checkbox复选框清除样式

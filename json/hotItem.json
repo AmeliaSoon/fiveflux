@@ -1,0 +1,33 @@
+{  "hotItem1":
+		{"background":"url(image/153500771432_366x515.jpg) no-repeat",
+			"p":[["Adidas Originals","三叶草","￥ 393"],["Adidas Originals","三叶草","￥ 393"],
+				["Adidas Originals","￥ 393"],["Adidas Originals","三叶草","￥ 393"],
+				["Adidas Originals","三叶草","￥ 393"],["Adidas Originals","三叶草","￥ 393"]],
+			"img":["image/153385031567_1320x1320_800x800.jpg","image/153529597733_1571x2000.JPG",
+				"image/153385031567_1320x1320_800x800.jpg","image/153385031567_1320x1320_800x800.jpg",
+				"image/153385031567_1320x1320_800x800.jpg","image/153385031567_1320x1320_800x800.jpg"]
+		},
+	"hotItem2":
+		{"background":"url(image/153500771432_366x515.jpg) no-repeat",
+			"p":[["Adidas Originals","三叶草","￥ 393"],["Adidas Originals","三叶草","￥ 393"],
+				["Adidas Originals","￥ 393"],["Adidas Originals","三叶草","￥ 393"],
+				["Adidas Originals","三叶草","￥ 393"],["Adidas Originals","三叶草","￥ 393"]],
+			"img":["image/153385031567_1320x1320_800x800.jpg","image/153529597733_1571x2000.JPG",
+				"image/153385031567_1320x1320_800x800.jpg","image/153385031567_1320x1320_800x800.jpg",
+				"image/153385031567_1320x1320_800x800.jpg","image/153385031567_1320x1320_800x800.jpg"]
+		},
+	"hotItem3":
+		{"backLeft":["url(image/153507646423_398x517.jpg) no-repeat",["生活方式","Eva Solo","原装进口塑料杯随手杯轻巧便携冷水瓶随行瓶"]],
+		"libg":["url(image/153507646291_398x255.jpg) no-repeat","url(image/153507646291_398x255.jpg) no-repeat",
+		"url(image/153507646291_398x255.jpg) no-repeat","url(image/153507646291_398x255.jpg) no-repeat"
+		],
+			"p":[
+			["生活方式","Eva Solo","原装进口塑料杯随手杯轻巧便携冷水瓶随行瓶"],
+			["生活方式","Eva Solo","原装进口塑料杯随手杯轻巧便携冷水瓶随行瓶"],
+			["生活方式","Eva Solo","原装进口塑料杯随手杯轻巧便携冷水瓶随行瓶"],
+			["生活方式","Eva Solo","原装进口塑料杯随手杯轻巧便携冷水瓶随行瓶"]
+			]
+		}
+		
+
+}	
